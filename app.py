@@ -4,7 +4,7 @@ from langchain_community.utilities import ArxivAPIWrapper, WikipediaAPIWrapper
 from langchain_community.tools import ArxivQueryRun, WikipediaQueryRun, DuckDuckGoSearchRun
 from langchain.agents import initialize_agent, AgentType
 from langchain_community.callbacks.streamlit import StreamlitCallbackHandler
-
+####
 ## Hardcoded API Key (Directly in Code)
 api_key = "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"  # 🔴 Replace with your actual API key
 
